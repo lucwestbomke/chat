@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "tsc -p tsconfig.json --watch",
+    "start": "node --watch dist/index.js",
+    "dev": "pnpm build && pnpm start"
+  },
+  "devDependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/websocket": "^8.1.0",
+    "@trpc/server": "^10.33.0",
+    "@types/node": "^20.3.3",
+    "fastify": "^4.19.2",
+    "typescript": "^5.1.6",
+    "zod": "^3.21.4"
+  }
+}
